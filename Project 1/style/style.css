@@ -1,0 +1,194 @@
+/* **********************************************************************
+    Default Vaules
+    
+    font: oswald, sans serif 
+    
+    Colors :
+        1. Midnightblue - #2c3e50
+        2. alzirian - #e74c3c
+    ********************************************** */
+
+/* *******************************************************
+        
+        Basic setup
+
+
+******************************************************** */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Oswald',sans-serif;
+    
+}
+li {
+    list-style: none;
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.container{
+    white-space: 1400px;
+   margin: auto;
+    background-color: #fff;
+    
+}
+/* *****************************************************************
+     Header
+    
+*********************************************************************** */
+body{
+    background-color: #2c3e50;
+    
+}
+header h1{
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px 0;
+    
+}
+
+header h1 span{
+    color: #e74c3c;
+}
+
+/* **************************************************************************
+
+
+                    Nav menu
+
+*************************************************************** */
+
+.nav-menu{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fafafa;
+    
+}
+.nav-menu #{
+    color: midnightblue;
+    
+}
+.nav-menu :hover{
+    color: #e74c3c;
+    
+}
+
+.nav-menu li{
+    padding: 20px ;
+   
+   
+}
+
+/* *****************************************************************
+   About text
+*********************************************************************** */
+
+
+.about-text{
+    padding:0 80px;
+    
+}
+.about-text h2{
+    color:  #e74c3c;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 30px 0;
+    
+}
+.about-text p{
+    font-weight: 4000;
+    color: #2c3e50;
+    margin-bottom: 10px
+}
+.about-text a{
+    color: #e74c3c;
+    
+}
+
+
+.about-text :hover{
+    color: #2c3e50;
+    
+}
+
+
+/* *****************************************************************
+   show food
+*********************************************************************** */
+
+.show-food{  
+    margin-top: 50px;
+    padding:0 50px;
+    border: 20px;
+    
+}
+.food{
+    background-color:#2c3e50;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    color:#fafafa;
+    
+}
+.food:nth-child(2){
+    background-color: #e74c3c;
+    
+    
+}
+.food food-text{
+   
+    padding: 20px;
+}
+.food img{
+    height: 10;
+
+}
+.food h2{
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.food p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+/* *****************************************************************
+   big image
+*********************************************************************** */
+
+.Big-image{
+    width: 80%;
+    
+    margin: auto;
+
+}
+.Big-image img{
+    width:100%;
+    background-color: #fff;
+    font-weight: 300;
+    padding: 15px;
+    size: 15px;
+}
+
+footer{
+    align-content: center;
+    background-color:  #e74c3c;
+    color: #fff;
+    font-weight: 300;
+    padding:15px;
+    font-size: 18px;
+}
